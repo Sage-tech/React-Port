@@ -17,10 +17,9 @@ const experience = () => {
                     <span className="experiences__button">View More <i className="uil uil-arrow-right experiences__button-icon"></i></span>
                     <div className="serives__modal">
                         <div className="experiences__modal-content">
-                            <i className="uil uil-times experiences__modal-close"></i>
+                            {/* <i className="uil uil-times experiences__modal-close"></i> */ }
                             <h3 className="experiences__modal-title"></h3>
-                            <p className="experiences__modal-description">Providing companies with my mindset and skill set in the early years of my career.
-                                Showing quick results along with adapting new concepts within teams I adpot diverse technologies and programming languages.</p>
+                            <p className="experiences__modal-description"></p>
                             <ul className="experiences__modal-experiences grid">
                                 <li className="experiences__modal-experience">
                                     <i className="uil uil-check-circle experiences__modal-icon"></i>
@@ -52,8 +51,52 @@ const experience = () => {
                 </div>
 
 
+
+                <div className="experiences__content">
+                    <div>
+                        <i className="uil uil-web-grid experiences container grid"></i>
+                        <h3 className="experiences__title">Software <br /> Quality Assurance</h3>
+                    </div>
+                    <span className="experiences__button">View More <i className="uil uil-arrow-right experiences__button-icon"></i></span>
+                    <div className="serives__modal">
+                        <div className="experiences__modal-content">
+                            {/* <i className="uil uil-times experiences__modal-close"></i> */ }
+                            <h3 className="experiences__modal-title"></h3>
+                            <p className="experiences__modal-description"></p>
+                            <ul className="experiences__modal-experiences grid">
+                                <li className="experiences__modal-experience">
+                                    <i className="uil uil-check-circle experiences__modal-icon"></i>
+                                    <p className="experiences__modal-info">
+                                        Website Applications
+                                    </p>
+                                </li>
+                                <li className="experiences__modal-experience">
+                                    <i className="uil uil-check-circle experiences__modal-icon"></i>
+                                    <p className="experiences__modal-info">
+                                        Assemble Test Cases based on higher/lower level design
+                                    </p>
+                                </li>
+                                <li className="experiences__modal-experience">
+                                    <i className="uil uil-check-circle experiences__modal-icon"></i>
+                                    <p className="experiences__modal-info">
+                                        Create Unit Tests to verify functionality
+                                    </p>
+                                </li>
+                                <li className="experiences__modal-experience">
+                                    <i className="uil uil-check-circle experiences__modal-icon"></i>
+                                    <p className="experiences__modal-info">
+                                        Design test plans, scenarios, scripts, or procedures.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
 }
 export default experience
+
+//Providing companies with my mindset and skill set in the early years of my career.
+                              //  Showing quick results along with adapting new concepts within teams I adpot diverse technologies and programming languages.
