@@ -15,7 +15,7 @@ const About = () => {
                     <Info />
                     <p className="about__description">Software Engineer, who is driven by curiosity, I have always oriented myself towards learning. I am always curious and want to know how things work beyond the surface.
                         I am a life long learner and believe that this path of learning is not a straight path.
-                        I enjoy both the problems I solve and the team work I get to work with to solve them. </p>
+                        I enjoy both the problems I solve and the team I get to work with to solve them. </p>
                     <a download="" href={ CV } className="button button--flex">Download CV
                         <svg
                             className="button__icon"
